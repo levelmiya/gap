@@ -1,0 +1,20 @@
+ul.x-kabu-body {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+}
+
+ul.x-kabu-body.open {
+  display: block;
+}
+
+li.x-kabu-menu-item {
+  width: 100%;
+  margin-right: 4px;
+  display: block;
+}
+
+li.xkau-menu-item:last-child {
+  margin-right: 0;
+}
